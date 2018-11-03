@@ -14,7 +14,7 @@ jobs:
     docker:
       - image: circleci/clojure:latest
     steps:
-      - run: echo "more more test blah test"
+      - run: echo "more more test blah test test"
 workflows:
   version: 2
   build_and_test:
